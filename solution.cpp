@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+using namespace std;
+vector<string> m = {"zubr","rure","sema","tkaj","koty","sita","naga","akta","lona","zale","runi","dmie","pily","ryja","gani","core","wolk","sial","ojce","usty","ruta","kiju","taic","srod","cepy","omen","rang","mary","myje","drum","osad","traw","ulan","dnem","tepy","woza","saka","plut","pono","ubil","kufy","dasa","lyka","jena","apel","maci","mami","zold","dzga","mach","sili","fajt","tail","bury","msze","rusa","zolw","maku","zyta","tluc","ewie","rury","zmyc","ruty","dydo","gnic","suwa","soli","tany","kite","bies","raic","lity","prus","wiaz","ziol","figi","kity","wije","osie","kuca","swoi","asan","glog","samy","tyla","dyby","klin","kopy","wasc","jezu","knot","tyki","kole","sadz","kisc","zaki","swat","fein","maca","memi","lapa","bono","rosi","orze","plot","cwik","baka","snul","sofy","mchu","kosy","jemy","guma","gont","roja","gebe","runa","msza","kusy","lice","smyk","zyto","pizm","ciac","imal","roju","podz","rzed","psim","zwan","anna","krop","szyb","laur","rani","klod","zjem","luba","cory","boda","bodl","brem","bisy","wyje","dzik","kute","karp","soki","krup","zulo","tuli","wety","bada","kruk","miga","lany","lipy","rowy","klac","wici","usza","wlok","haki","raki","owsa","trup","katu","moki","kedy","raza","helm","lanc","pedu","poje","musu","nize","orle","susy","lala","pace","debu","wara","fant","sery","zboz","lomu","arce","puer","waga","koly","maro","jawa","kufa","lisi","cary","ssie","osim","gryf","syty","lisa","mszy","kope","spiz","bety","siny","baki","cwal","owad","cara","suty","popi","zjac","rote","alic","klos","piki","szyk","lzyc","farb","kore","miod","newa","zosi","lula","seki","tyka","trem","herb","jary","fest","lyse","mchy","mlel","tupa","liku","srut","czol","rura","zbil","ogar","imac","buja","poja","grom","tnie","sejm","babi","lupy"};
+vector<string> p = {"prze","nago","gnaj","czek","heca","drab","karb","daza","cena","gbur","park","buta","rzac","fura","mdlo","bata","tonu","skup","kosz","tere","kipi","buzi","1828","plun","bast","-oko","jame","piwo","star","daty","krow","wata","zlob","plug","opal","nawe","tryb","bite","7200","mroz","zehn","kwit","jeze","yung","rosl","hale","roty","puls","-tak","-ona","aber","klas","aktu","kora","arka","dygi","uwag","pake","bele","myto","calo","idee","ehej","prob","nudz","mlot","szyn","acte","lupi","gama","gole","tepe","bycz","vois","plew","rudy","druk","idea","alec","dozy","tibi","ssac","gumy","poze","kepa","arfy","bomb","papo","wada","kurs","raut","bity","tata","ludz","zboj","uzde","beli","pisk","form","opat","suma","waly","paki","bist","fela","ubyl","tera","tylo","zeni","majn","nura","mama","s'il","tory","igla","bien","pila","plat","funt","bude","spis","zoli","smug","denn","lyki","-ach","ples","wuja","sich","loja","umyl","fazy","w-go","cyfr","prac","giac","zlal","bela","coze","kase","krym","inte","peta","kask","faza","herr","lzej","mape","nach","baba","tona","geba","ilem","game","stas","fakt","1857","osia","belu","bony","kpie","zupy","fach","szaf","zbyc","gadu","lwem","giez","tako","mimi","nore","okow","zmow","rusz","kroc","teka","dobe","fort","1847","gott","1840","nicz","cere","boso","tube","kitu","leka","pape","zero","osma","lbie","mdla","1853","gody","w-ny","epok","byku","zbyl","doby","-pan","miss","kpic","zbaw","trul","okpi","1859","babe","wolu","spie","pres","mace","miar","1861","zgon","calu","make","mara","rasa","toru","page","fajn","1848","rydz","rafy","zeba","toku","zydy","zlam","owak","ruda","mase","sodu","kroj","lgna","chin","goli","wiez","paka","vous","bali","1850","eter","zupe","piet","nawa","wsia","wila","baje","hast","gnoi","gine","fury","desz","lazl","1879","heli","gazu","rytm","typu","ziec","wdow","papa","kepe","lulu","1860","soit","gamy","felu","fere","drac","mole","mlyn","zara","rwij","ugor","bank","papy","-moj","doux","rasy","rody","alim","lufa","leon","kazi","stuk","cher","buch","lepi","rozu","pcha","irem","pism","wpis","klal","1849","biur","veux","paix","iluz","acan","wlac","widz","kasi","meko","cnot","wade","1856","kluj","1870","oslu","wsie","pled","kiej","baum","doch","wron","grat","mine","azem","taca","kadz","sfer","psia","umyc","also","bytu","pret","mezu","klap","plul","pens","luty","brek","kita","bruk","dyma","turr","wikt","msci","-ale","geby","poci","avez","bene","atom","laja","braz","mare","rase","katz","igly","suki","snuc","mozg","osle","arie","celi","wosk","zera","koki","noch","beni","raca","dlug","czyj","ojej","wasi"}; 
+vector<string> s = {"krol","jade","obca","walk","domy","inne","rane","tlok","rady","roza","zeus","gwar","scen","siac","rade","most","meke","sama","roku","toni","lina","izes","mile","spod","ucze","kara","zyda","mnie","grac","gdyz","wloz","snic","tegi","pary","okno","stoi","swym","mdle","owcy","taki","sica","troi","aula","mula","okop","nikt","ufaj","mode","pola","mina","malp","hart","wina","gory","bobu","losy","wyla","cios","zone","hold","jeki","malo","byli","piec","sady","brwi","harf","cegi","abym","sine","szat","echo","drzy","umie","poda","czul","moge","kolo","leci","evoe","mihi","ledy","sido","samo","domu","plec","znam","ufal","veni","drwa","aper","twoj","hera","wagi","rzad","chec","waza","oeta","budz","bogu","mety","zywa","mala","glow","dwie","wazy","dymu","idac","ufne","zdam","bala","wyda","wyli","ojcu","gina","drap","wpol","dume","skry","zony","tego","bylo","zrab","nowa","serc","mial","czyz","mise","jana","jego","takt","pizo","temu","ciag","mila","snem","dolu","klab","rzec","jest","czuc","pili","ktos","epos","obie","twym","lata","miec","skad","meza","otoz","ucho","gaju","dosc","gnal","udal","traf","cala","stan","krew","ilez","sami","jeli","cien","lgne","nowi","wozy","koic","milo","sarn","kark","znad","dany","taka","kuli","zysk","dole","ujma","kraj","obok","moim","eheu","bark","owej","dumy","lede","trac","dnie","sien","roma","stok","nasi","nimi","smie","daru","rzut","reke","stac","myli","kalu","gore","cedr","rosy","drew","byly","mamy","plac","szly","omal","boku","asow","koni","nowe","lozu","jeno","wody","obaj","spal","coma","galu","soba","brak","ulec","grek","otho","biec","jaka","ojca","aten","bola","bron","twej","orly","choc","szlo","moda","kona","lecz","izem","komu","szum","tury","czys","sens","faon","kazn","cial","amor","wiek","afra","dwom","zyle","mego","plyt","kupa","psst","loju","guni","jadu","cery","uczy","widm","wami","plan","leda","deae","szla","kosc","akte","kaze","syro","szyi","jedz","nami","mury","czar","rany","wrot","pare","tedy","lewo","rozy","gral","wino","kary","wyly","boje","nuda","nade","pisz","lbem","diva","zyje","woni","iony","polu","afer","znak","lasy","reki","gosc","laty","lace","tyle","raju","ligu","ukoj","bywa","wraz","nocy","ryku","gemm","niej","zlem","izys","zada","otos","dniu","nero","uszu","tura","spia","krom","kruz","cyrk","sale","pusc","uczt","ludy","ruch","mece","moga","zart","praw","reka","jako","okna","ulgi","sadu","tamy","niby","trzy","wisi","orbi","kury","ucza","zdan","spac","figa","ryba","kaza","pasy","stop","glaz","bral","woda","pala","teza","opre","mrok","romy","peku","hero","wies","owce","woli","sily","brac","lary","zdac","byla","waze","wola","tlic","indu","alem","duma","caly","zima","lasu","zadz","sali","tlum","lada","masz","boki","oczy","lwow","ulac","pole","swej","glos","zywy","rysy","znac","togi","ryby","swoj","winy","bede","mowi","dbam","izby","badz","razy","tymi","parl","ruin","kaci","jovi","razu","role","kram","luna","maki","lozy","dnia","maly","czci","psom","judy","mowa","palm","brat","stad","ktoz","rada","synu","poca","tchu","ergo","jaje","moze","wode","slad","mogl","udac","azja","aren","ludu","ucha","fale","zalu","iras","maja","nosa","umre","syta","snop","pies","osob","mule","uzyj","lwie","ujme","nogi","kogo","stol","pior","legl","flet","zimy","tame","ospa","obce","kres","twoi","pali","zywe","smak","rana","jely","kata","chca","leza","zdal","bija","zwaz","pawi","toba","inni","ocal","obys","jaki","moja","noca","zwoj","reku","nimf","tych","lisc","plci","list","swit","truj","wasz","okaz","dach","pasc","siwy","nich","aaaa","dlon","albo","trab","doda","boju","wtem","azji","sola","juno","dbal","meze","staj","gdym","amen","pije","snie","lwom","echa","pyta","chce","nowy","beda","liga","nazw","moca","usta","istm","dzis","poil","snia","plag","mily","doly","lubi","wlos","wbil","psow","nowo","pito","kaju","udam","gram","laki","wage","pasa","dary","boze","rogi","poki","smia","rozg","szal","ladu","opra","pnie","ujmy","lzom","mgla","mymi","znow","fala","potu","kaja","here","uzna","krok","zlym","abys","ptak","boga","slow","muru","morz","feba","zyli","byka","cytr","sile","gdys","gulo","toge","zime","licz","nudy","urok","dwaj","wiem","fugi","lezy","bila","mocy","lety","zona","glab","misa","pana","pory","plon","czas","padl","grob","psem","musi","jesc","jemu","wnet","apis","twor","mity","puka","kryc","daje","nosi","tylu","urbi","dalo","uzyc","nasz","dano","wiec","swad","eros","pien","muly","mowy","zyja","mysl","stal","zeby","kola","blad","aulu","roli","fald","liry","spil","oczu","uspi","udom","arca","uwaz","barw","slal","groz","rece","jama","gala","pros","klul","rogu","memu","mimo","robi","obco","dala","dziw","aqua","dali","byle","czym","owym","zaru","pora","siwa","lapy","dymy","myla","znal","gula","moje","luki","klio","inny","przy","inna","bily","wota"};
+
+void odp(vector<string> x) {
+    for(auto a : x) {
+            for(auto b : m) {
+                if(a == b) {
+                    cout << "Mickiewicz\n";
+                    return;
+                }
+            }
+            for(auto c : p) {
+                if(a==c){
+                    cout<<"Prus\n";
+                    return;
+                }
+            }
+            for(auto d : s) {
+                if(a==d) {
+                    cout << "Sienkiewcz\n";
+                    return;
+                }
+            }
+        }
+        cout << "Mickiewicz\n";
+}
+
+main()
+{
+    int T;
+    string s;
+    cin >> T;
+    while(T--) {
+        cin >> s;
+        vector<string> x;
+        string pom="";
+        for(auto c : s) {
+            if(c == ' ' || c == '.' || c == '?') {
+                x.push_back(pom);
+                pom="";
+                continue;
+            }
+            pom+=c;
+        }
+        odp(x);
+    }
+}
