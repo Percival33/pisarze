@@ -4,7 +4,7 @@ import shutil
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 # my_file = os.path.join(THIS_FOLDER, 'Prus2.txt')
 
-MINIMAL_LENGHT_OF_WORD = 4
+LENGHT_OF_WORD = 4
 
 char_to_remove = [' ', '.', '?', '!', ',', ';',':','"',')','(','*']
 
@@ -15,7 +15,6 @@ def print_list(list_name):
 
 def process(name):
     file = os.path.join(THIS_FOLDER, name)
-    # print("FILE = ", file, end='\n\n***\n\n')
     words = set()
 
     f = open(file, 'r')
@@ -77,13 +76,7 @@ def main():
     # print(prus)
 
     dir_name = os.path.join(THIS_FOLDER, "unique_words")
-
-
-    # try:
-    #    os.remove(dir_name)
-    #    print("dir removed")
-    # except:
-    #     print("dir cannot be removed")
+    
     shutil.rmtree(dir_name)
     os.mkdir(dir_name)
     # print(dir_name)
