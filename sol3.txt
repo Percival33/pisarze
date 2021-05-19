@@ -1,0 +1,24 @@
+t=int(input())
+for i in range(0,t)
+    s = input().split(' ')
+    l = []
+    for w in s:
+        ss=""
+        for c in w:
+            ss+=c
+            if len(ss) == 4:
+                l.append(ss)
+                ss=""
+    # print(l)
+    p,m,s = 0,0,0
+    for ll in l:
+        if ll in P:
+            p+=1
+        elif ll in M:
+            m+=1
+        elif ll in S:
+            s+=1
+    odp = "Prus" if p == max(p,m,s) else "."
+    odp = "Mickiewicz" if m == max(p,m,s) else odp
+    odp = "Sienkiewicz" if s == max(p,m,s) else odp
+    print(odp)
