@@ -18,6 +18,8 @@ There are $T$ testcases, each containing excerpt from one of the three aforement
 
 ## Strategy & attempts :smile:
 
+![](result.png)
+
 1. Save lists of unique words of length $4$ - Score $43$
 
     * [solution.cpp](https://github.com/Percival33/pisarze/blob/main/solution.cpp)
@@ -29,4 +31,3 @@ There are $T$ testcases, each containing excerpt from one of the three aforement
 3. Save lists of unique strings of length $4$ - Score $73$
     * [words_generator3.py](https://github.com/Percival33/pisarze/blob/main/words_generator3.py)
     * [solution3.py](https://github.com/Percival33/pisarze/blob/main/solution3.py)
-
